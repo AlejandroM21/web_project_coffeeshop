@@ -85,9 +85,6 @@
   color: #838383;
   font-weight: 500;
 }
-.header__footer-line-break {
-  display: block;
-}
 
 .header__paragraph {
   margin: 0;
@@ -111,6 +108,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 0;
 }
 
 .recipes__subtitle {
@@ -118,6 +116,7 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 438px;
+  margin: 24px 0 80px;
 }
 .recipes__videos {
   display: flex;
