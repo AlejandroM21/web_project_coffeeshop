@@ -90,8 +90,7 @@
   margin: 0;
   align-self: end;
 }
-.content {
-}
+
 .recipes {
   box-sizing: border-box;
   background-image: url(/images/background_recipes.svg);
@@ -146,4 +145,105 @@
 
 .recipes__video-caption_margin {
   margin: 24px 0 0;
+}
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.reservation__title {
+  margin: 0 auto 80px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.form {
+  padding: 100px 0 120px 0;
+}
+
+.reservation__form {
+}
+
+.form__fieldset {
+  margin: auto;
+  width: 100%;
+  border: 0;
+  max-width: 385px;
+  padding: 0;
+}
+
+.form__input {
+  padding: 15px 20px;
+  margin: 8px 0 32px;
+  border-radius: 4px;
+  border: 0;
+  height: 60px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 30px;
+  box-sizing: border-box;
+}
+.form__buttom {
+  max-width: 385px;
+  width: 100%;
+  border-radius: 4px;
+  height: 60px;
+  margin-bottom: 32px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.form__buttom:hover {
+  opacity: 0.7;
+}
+.form__label {
+  font-weight: 500;
+}
+.checkbox {
+  text-align: center;
+}
+
+.form__checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  padding-bottom: 120px;
+}
+
+.form__pseudo-item {
+  display: inline-block;
+  vertical-align: middle; /*se alinea con el checkbox*/
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  margin-right: 12px;
+}
+.form__checkbox:checked + .form__pseudo-item {
+  background-color: #2f80ed;
+  background-image: url(../images/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.form__input::placeholder {
+  color: #838383;
+}
+.form__input::-webkit-input-placeholder {
+  color: #838383;
+}
+
+.form__input::-moz-placeholder {
+  color: #838383;
+}
+
+.form__input::-ms-input-placeholder {
+  color: #838383;
 }
